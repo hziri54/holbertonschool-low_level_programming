@@ -3,9 +3,9 @@
 /**
  *    main - main function
  *
- *    Description : Cette fonction imprime une phrase en utilisant puts.
+ *    Description: This function prints a phrase using puts.
  *
- *    Renvoie toujours 0 pour indiquer le succès.
+ *    Return: Always returns 0 for success
  */
 
 int main(void)

@@ -1,6 +1,5 @@
 #include <stdio.h> 
-
-/* *
+/**
  *main - main function
  *
  *Description: This function prints a phrase using puts.
@@ -10,10 +9,10 @@
 
 int main(void)
 {	
-	printf("\n %d octets pour variable de type char ",sizeof(char));
-	printf("\n %d octets pour variable de type int ",sizeof(int));
-	printf("\n %d octets pour variable de type long int ",sizeof(long int));
-	printf("\n %d octets pour variable de type float ",sizeof(long long int));
-	printf("\n %d octets pour variable de type float ",sizeof(float))
+	printf("Size of a char: %lu byte(s),"sizeof(char));
+	printf("Size of a int: %lu byte(s),"sizeof(int));
+	printf("Size of a long int: %lu byte(s),"sizeof(long int));
+	printf("Size of a long long int: %lu byte(s),"sizeof(long long int));
+	printf("Size of a float %lu byte(s),"sizeof(float))
 	return (0);
 }

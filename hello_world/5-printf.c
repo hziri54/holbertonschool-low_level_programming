@@ -4,7 +4,7 @@
  *main - main function
  *
  *Description: This function prints a phrase using puts.
-i *
+ *
  *Return: Always returns 0 for success
  */
 

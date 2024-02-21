@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 int main() {
     for (char lettre = 'a'; lettre <= 'z'; lettre++) {

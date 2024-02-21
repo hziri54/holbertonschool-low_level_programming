@@ -1,9 +1,8 @@
-#include <main.h>
+#include "main.h"
 
 int main() {
-    for (char lettre = 'a'; lettre <= 'z'; lettre++) {
-        putchar(lettre);
-    }
+    print_alphabet(void)
+    
     return 0;
 }
 

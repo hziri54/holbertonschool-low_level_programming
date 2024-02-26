@@ -8,7 +8,7 @@
  *
  * Description: to multiply two numbers
  *
- * Return 0 for sucess 
+ * Return 0 for sucess. 
  */
 
 int mul(int a, int b)

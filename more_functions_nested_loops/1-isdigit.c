@@ -10,7 +10,7 @@
  * Return: 0 for success.
  */
 
-int _isdigit(int c)
+@:x
 {
 	if (c >= '0' && c <= '9')
 	{

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - entry point
+ * _isdigit - entry point
  *
  * @c: letter
  *

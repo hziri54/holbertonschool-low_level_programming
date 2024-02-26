@@ -3,11 +3,11 @@
 /**
  * print_diagonal - entry point
  *
- * @n: number 
+ * @n: number
  *
- * Description: writing a diagonal function 
+ * Description: draws a diagonal line on the terminal
  *
- * Return: 0 for sucess.
+ * Return: 0 for success.
  */
 
 void print_diagonal(int n)
@@ -17,14 +17,18 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		for (count  = 0; count < n; count++)
+		for (count = 0; count < n; count++)
 		{
-			_putchar(' ');
+			for (space = 0; space < count; space++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
+	} else
+	{
 		_putchar('\n');
 	}
-}else
-{
-	_putchar('\n');
 }
+

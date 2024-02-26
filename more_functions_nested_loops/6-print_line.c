@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - entry point 
+ * print_line - entry point
  *
  * Description: function that draws a straight line in the terminal
  *

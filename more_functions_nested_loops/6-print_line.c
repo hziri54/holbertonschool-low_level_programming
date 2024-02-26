@@ -8,7 +8,7 @@
  * Return: 0 for sucess.
  */
 
-void print_line(int 'n')
+void print_line(int n)
 {
 	int count;
 

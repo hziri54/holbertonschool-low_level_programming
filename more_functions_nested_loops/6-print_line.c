@@ -3,6 +3,8 @@
 /**
  * print_line - entry point
  *
+ * @n: number
+ *
  * Description: function that draws a straight line in the terminal
  *
  * Return: 0 for sucess.

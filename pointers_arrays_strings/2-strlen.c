@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strlen_int - entry point
+ * _strlen - entry point
  *
  * @s: string thr returns
  *

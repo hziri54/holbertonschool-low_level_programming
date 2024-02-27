@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * swap - entry point 
+ * swap_int - entry point 
+ *
+ * @a: integrer
+ * @b: integrer
  *
  * Description: exchange the values of 2 integers
  *

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int - entry point 
+ * swap_int - entry point
  *
  * @a: integrer
  * @b: integrer
@@ -17,5 +17,5 @@ void swap_int(int *a, int *b)
 
 	temporary = *a;
 	*a = *b;
-	*b = temporary ;
+	*b = temporary;
 }

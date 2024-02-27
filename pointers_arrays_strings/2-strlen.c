@@ -3,11 +3,11 @@
 /**
  * _strlen - entry point
  *
- * @s: string thr returns
+ * @s: string
  *
- * Description: return the length of a character string
+ * Description: function that returns the length of a string of characters
  *
- * Return: 0 for sucess
+ * Return: 0 for success.
  */
 
 int _strlen(char *s)
@@ -16,7 +16,7 @@ int _strlen(char *s)
 	int index;
 
 	len = 0;
-	for (index = O; s[index] !: '\0'; index ++)
+	for (index = 0; s[index] != '\0'; index++)
 	{
 		len++;
 	}

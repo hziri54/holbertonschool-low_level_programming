@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - entry point 
+ * reset_to_98 - entry point
  *
  * @n: value
  *

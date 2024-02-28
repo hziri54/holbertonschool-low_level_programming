@@ -1,14 +1,26 @@
 #include "main.h"
 
+
+
 /**
- * _puts - entry point 
+
+ * _puts - entry point
+
  *
- * @str: string 
+
+ * @str: string
+
  *
- * Description : write a function that prints a string of characters, followed by a new line
+
+ * Description: prints a string
+
  *
- * Return: 0 for sucess.
+
+ * Return: 0 for success.
+
  */
+
+
 
 void _puts(char *str)
 {

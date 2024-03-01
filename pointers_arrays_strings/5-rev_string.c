@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * rev_string - entry point
  *
@@ -12,20 +13,21 @@
 
 void rev_string(char *s)
 {
-	int len = 0;
-	int i = 0;
-	int temp;
-	int j;
+	int a, b, c;
 
-	while (s[len])
+	char temp;
+
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		len++;
+	}
+	c = a - 1;
+
+	for (b = 0; b < a / 2; b++)
+	{
+	temp = s[b];
+	s[b] = s[c];
+	s[c] = temp ;
+	c--;
 	}
 
-	for (i = 0, j = len - 1; i <= j; i++, j--)
-	{
-		temp = s[i];
-		s[i] = s[j];
-		s[j] = temp;
-i	}
 }

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * rev_string
+ * puts2 -  starting with the first character, followed by a new line.
  *
- * @s: string
+ * @str: string
  *
  * Description: starting with the first character, followed by a new line.
  *
@@ -18,7 +18,7 @@ void puts2(char *str)
 	{
 	}
 
-	for (a = 0; a < b; a+=2)
+	for (a = 0; a < b; a += 2)
 	{
 		_putchar(str[a]);
 	}

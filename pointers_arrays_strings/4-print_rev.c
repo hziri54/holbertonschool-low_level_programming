@@ -7,8 +7,9 @@
  * @s: string
  *
  * Description: write a character string that prints backwards
- * 
- * Return: 0 for success. */
+ *
+ * Return: 0 for success. 
+ **/
 
 void print_rev(char *s)
 {
@@ -18,7 +19,7 @@ void print_rev(char *s)
 	while (s[len])
 	{
 		len++;
-       	}
+	{	
 	
 	i = len - 1;
 	while (i >= 0)

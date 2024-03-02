@@ -1,26 +1,25 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_array - prints n ellements of an array
+ * _strcpy - functions that copies the string pointed
  *
- * @a: integer
- * @n: integer
+ * @dest : fichier de destionation
+ * @src: fichier source
  *
- * Return: 0 for success.
+ * Return: the both value
  */
 
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
-	int index;
+	char *finaldest = dest;
 
-	for (index = 0; index < n; index++)
+	while (*src != '\0')
 	{
-		printf("%d", a[index]);
-		if (index < n - 1)
-		{
-			printf(", ");
-		}
+		*dest = *src;
+		dest++;
+		src++;
 	}
-	printf("\n");
+
+	*dest = '\0';
+	return (finaldest);
 }

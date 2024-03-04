@@ -1,17 +1,21 @@
 #include "main.h"
 
-char *_memset(char *s, char b, unsigned int n);
+/**
+  * _memset - fill the memory with a constant byte
+  * @s: memory area to fill
+  * @b: constant byte to fill
+  * @n: bytes of memory area to fill
+  *
+  * Return: the memory area filled
+  */
+char *_memset(char *s, char b, unsigned int n)
 {
-    unsigned char memoire[10]; // Exemple d'une zone mémoire de 10 octets
+	unsigned int a;
 
-    remplir_memoire(memoire, sizeof(memoire), 0xFF); // Remplit la mémoire avec l'octet 0xFF
+	for (a = 0; a < n; a++)
+	{
+		s[a] = b;
+	}
 
-    // Affichage de la mémoire pour vérification
-    printf("Contenu de la mémoire remplie :\n");
-    for (int i = 0; i < sizeof(memoire); ++i) {
-        printf("%02X ", memoire[i]);
-    }
-    printf("\n");
-
-    return 0;
+	return (s);
 }

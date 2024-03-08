@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion - Create a function that outputs a text message.
+ * _puts_recursion - Write a function that prints a string.
  *
  * Return: s
  *

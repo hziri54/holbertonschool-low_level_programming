@@ -26,3 +26,4 @@ void print_diagsums(int *a, int size);
 char *_strchr(char *s, char c);
 void print_diagsums(int *a, int size);
 char *_strchr(char *s, char c);
+char *cap_string(char *);

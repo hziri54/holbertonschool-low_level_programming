@@ -1,3 +1,4 @@
+#include "3-calc.h"
 
 /**
  * main - print result of operation

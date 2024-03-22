@@ -21,6 +21,6 @@ char *cap_string(char *c)
 			c[a] -= 32;
 	b++;
 	a++;
-	
+
 	return (c);
 }
